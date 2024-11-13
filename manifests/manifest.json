@@ -1,48 +1,65 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://RichardHoa.github.io/Nugioichung/manifests/manifest.json",
-  "@type" : "sc:Manifest",
-  "label" : "Testing manifest",
-  "metadata" : [ ],
-  "description" : [ {
-    "@value" : "This is just a normal description",
-    "@language" : "en"
-  } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "Trung Tam Nghien Cuu Viet Nam",
-  "sequences" : [ {
-    "@id" : "http://898119a0-83bc-4b57-81f1-3560c1b45195",
-    "@type" : "sc:Sequence",
-    "label" : "Normal Sequence",
-    "canvases" : [ {
-      "@id" : "http://ce89635f-77ab-4723-9d1a-aa909d513364",
-      "@type" : "sc:Canvas",
-      "label" : "Nugioichung-xuatban1-1",
-      "height" : 2200,
-      "width" : 1700,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://d1f1a447-bfdc-4364-a2de-f253a434406b",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://richardhoa.github.io/Nugioichung/images/So1_Feb1_1918_0002/full/max/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/3/context.json",
-            "@id" : "https://richardhoa.github.io/Nugioichung/images/So1_Feb1_1918_0002",
-            "profile" : "level0"
-          },
-          "height" : 2200,
-          "width" : 1700
-        },
-        "on" : "http://ce89635f-77ab-4723-9d1a-aa909d513364"
-      } ],
-      "related" : ""
-    } ]
-  } ],
-  "structures" : [ ],
-  "viewingDirection" : "left-to-right",
-  "viewingHint" : "continuous"
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://bda79e32-7bf7-4988-a09b-5076978aa440",
+	"@type": "sc:Manifest",
+	"label": "TEsting manitest",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "Khong co gi trong day ca",
+			"@language": "vi"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/4.0/",
+	"attribution": [
+		"Trung tam nu gioi vietnam"
+	],
+	"sequences": [
+		{
+			"@id": "http://d5f2a031-10b6-4ba5-ba9a-9693788c3b09",
+			"@type": "sc:Sequence",
+			"label": "Thu tu coai binh thuong hoi",
+			"canvases": [
+				{
+					"@id": "http://a026718a-6f6f-4161-9b20-78156b4c6cc2",
+					"@type": "sc:Canvas",
+					"label": "Trang dau tien",
+					"height": 2200,
+					"width": 1700,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://11a74012-356e-4504-9180-8726b36046a8",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://richardhoa.github.io/Nugioichung/images/So1_Feb1_1918_0002/full/max/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/3/context.json",
+									"@id": "https://richardhoa.github.io/Nugioichung/images/So1_Feb1_1918_0002",
+									"profile": "level0"
+								},
+								"height": 2200,
+								"width": 1700
+							},
+							"on": "http://a026718a-6f6f-4161-9b20-78156b4c6cc2"
+						}
+					],
+					"related": [
+						"Day laf summarize cua trang dau tien",
+						{
+							"@id": "sadsadasdsa",
+							"label": "hong biet gi het",
+							"format": "oac do phac"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": [],
+	"viewingDirection": "left-to-right",
+	"viewingHint": "hay coi tu dau den cuoi cac ban nhe"
 }

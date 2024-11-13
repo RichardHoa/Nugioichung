@@ -1,0 +1,67 @@
+{
+  "id" : "https://RichardHoa.github.io/Nugioichung/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in RichardHoa/Nugioichung project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 1700,
+    "id" : "https://RichardHoa.github.io/Nugioichung/images/So1_Feb1_1918_0002/canvas/",
+    "label" : {
+      "none" : [ "So1_Feb1_1918_0002" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://RichardHoa.github.io/Nugioichung/images/So1_Feb1_1918_0002/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://RichardHoa.github.io/Nugioichung/images/So1_Feb1_1918_0002/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 54,
+              "height" : 69
+            }, {
+              "width" : 107,
+              "height" : 138
+            }, {
+              "width" : 213,
+              "height" : 275
+            }, {
+              "width" : 425,
+              "height" : 550
+            }, {
+              "width" : 850,
+              "height" : 1100
+            }, {
+              "width" : 1700,
+              "height" : 2200
+            } ],
+            "profile" : "level0",
+            "width" : 1700,
+            "id" : "https://RichardHoa.github.io/Nugioichung/images/So1_Feb1_1918_0002",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 2200
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1700,
+          "id" : "https://RichardHoa.github.io/Nugioichung/images/So1_Feb1_1918_0002/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 2200
+        },
+        "target" : "https://RichardHoa.github.io/Nugioichung/images/So1_Feb1_1918_0002/canvas/"
+      } ]
+    } ],
+    "height" : 2200
+  } ]
+}

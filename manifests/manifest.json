@@ -1,65 +1,120 @@
 {
-	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "http://bda79e32-7bf7-4988-a09b-5076978aa440",
-	"@type": "sc:Manifest",
-	"label": "TEsting manitest",
-	"metadata": [],
-	"description": [
-		{
-			"@value": "Khong co gi trong day ca",
-			"@language": "vi"
-		}
-	],
-	"license": "https://creativecommons.org/licenses/by/4.0/",
-	"attribution": [
-		"Trung tam nu gioi vietnam"
-	],
-	"sequences": [
-		{
-			"@id": "http://d5f2a031-10b6-4ba5-ba9a-9693788c3b09",
-			"@type": "sc:Sequence",
-			"label": "Thu tu coai binh thuong hoi",
-			"canvases": [
-				{
-					"@id": "http://a026718a-6f6f-4161-9b20-78156b4c6cc2",
-					"@type": "sc:Canvas",
-					"label": "Trang dau tien",
-					"height": 2200,
-					"width": 1700,
-					"images": [
-						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://11a74012-356e-4504-9180-8726b36046a8",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "https://richardhoa.github.io/Nugioichung/images/So1_Feb1_1918_0002/full/max/0/default.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"service": {
-									"@context": "http://iiif.io/api/image/3/context.json",
-									"@id": "https://richardhoa.github.io/Nugioichung/images/So1_Feb1_1918_0002",
-									"profile": "level0"
-								},
-								"height": 2200,
-								"width": 1700
-							},
-							"on": "http://a026718a-6f6f-4161-9b20-78156b4c6cc2"
-						}
-					],
-					"related": [
-						"Day laf summarize cua trang dau tien",
-						{
-							"@id": "sadsadasdsa",
-							"label": "hong biet gi het",
-							"format": "oac do phac"
-						}
-					]
-				}
-			]
-		}
-	],
-	"structures": [],
-	"viewingDirection": "left-to-right",
-	"viewingHint": "hay coi tu dau den cuoi cac ban nhe"
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/swpzpyllh7-m3g0a1x4",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Nugioichung collection"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Attribute"
+        ]
+      },
+      "value": {
+        "en": [
+          "Trung tam Nghien Cuu Viet Nam"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "khong co gi ca"
+    ]
+  },
+  "rights": "http://creativecommons.org/licenses/by/4.0/",
+  "items": [
+    {
+      "id": "https://example.org/swpzpyllh7-m3g0a1x4/canvas/d8oo5zgt7mt-m3g0aku1",
+      "type": "Canvas",
+      "height": 2200,
+      "width": 1700,
+      "label": {
+        "en": [
+          "Trang dau tien cua to bao"
+        ]
+      },
+      "summary": {
+        "en": [
+          ""
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/swpzpyllh7-m3g0a1x4/canvas/d8oo5zgt7mt-m3g0aku1/annotation-page/g2z7dwyvlsj-m3g0aku1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/swpzpyllh7-m3g0a1x4/annotation/b6k4l2zoo1b-m3g0aktz",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/swpzpyllh7-m3g0a1x4/canvas/d8oo5zgt7mt-m3g0aku1",
+              "body": {
+                "id": "https://RichardHoa.github.io/Nugioichung/images/So1_Feb1_1918_0002/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2200,
+                "width": 1700,
+                "service": [
+                  {
+                    "tiles": [
+                      {
+                        "scaleFactors": [
+                          32,
+                          16,
+                          8,
+                          4,
+                          2,
+                          1
+                        ],
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "sizes": [
+                      {
+                        "width": 54,
+                        "height": 69
+                      },
+                      {
+                        "width": 107,
+                        "height": 138
+                      },
+                      {
+                        "width": 213,
+                        "height": 275
+                      },
+                      {
+                        "width": 425,
+                        "height": 550
+                      },
+                      {
+                        "width": 850,
+                        "height": 1100
+                      },
+                      {
+                        "width": 1700,
+                        "height": 2200
+                      }
+                    ],
+                    "profile": "level0",
+                    "width": 1700,
+                    "id": "https://RichardHoa.github.io/Nugioichung/images/So1_Feb1_1918_0002",
+                    "type": "ImageService3",
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "height": 2200
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

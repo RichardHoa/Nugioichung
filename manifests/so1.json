@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://example.org/swpzpyllh7-m3g0a1x4",
+  "id": "https://RichardHoa.github.io/Nugioichung/manifests/so1.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -29,7 +29,7 @@
   "rights": "http://creativecommons.org/licenses/by/4.0/",
   "items": [
     {
-      "id": "https://example.org/swpzpyllh7-m3g0a1x4/canvas/d8oo5zgt7mt-m3g0aku1",
+      "id": "https://RichardHoa.github.io/Nugioichung/manifests/so1.json/canvas/d8oo5zgt7mt-m3g0aku1",
       "type": "Canvas",
       "height": 2200,
       "width": 1700,
@@ -45,14 +45,14 @@
       },
       "items": [
         {
-          "id": "https://example.org/swpzpyllh7-m3g0a1x4/canvas/d8oo5zgt7mt-m3g0aku1/annotation-page/g2z7dwyvlsj-m3g0aku1",
+          "id": "https://RichardHoa.github.io/Nugioichung/manifests/so1.json/canvas/d8oo5zgt7mt-m3g0aku1/annotation-page/g2z7dwyvlsj-m3g0aku1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/swpzpyllh7-m3g0a1x4/annotation/b6k4l2zoo1b-m3g0aktz",
+              "id": "https://RichardHoa.github.io/Nugioichung/manifests/so1.json/annotation/b6k4l2zoo1b-m3g0aktz",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/swpzpyllh7-m3g0a1x4/canvas/d8oo5zgt7mt-m3g0aku1",
+              "target": "https://RichardHoa.github.io/Nugioichung/manifests/so1.json/canvas/d8oo5zgt7mt-m3g0aku1",
               "body": {
                 "id": "https://RichardHoa.github.io/Nugioichung/images/So1_Feb1_1918_0002/full/max/0/default.jpg",
                 "type": "Image",
